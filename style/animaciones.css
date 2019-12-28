@@ -242,5 +242,5 @@ button:hover::after{
 @keyframes corazon {
     0% {transform: scale(1.2);}
     50% {transform: scale(1.5);}
-    100% {transform: scale(0.9);}
+    100% {transform: scale(0.9  );}
 }
