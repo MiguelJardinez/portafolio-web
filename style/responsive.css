@@ -1,19 +1,29 @@
 @media screen and (max-width: 1366px){
+
+}
+
+@media screen and (max-width: 1081px){
+    .abosolute-footer{
+        margin: 0 50px;
+    }
+}
+
+@media screen and (max-width: 768px){
     
 }
 
-@media screen and (max-width: 1080px){
-
-}
-
-@media screen and (max-width: 767px){
-
-}
-
 @media screen and (max-width: 480px){
-
+    .abosolute-footer{
+        display: block;
+        text-align: center;
+    }
+    .abosolute-footer .project{
+        margin-bottom: 1em;
+    }
 }
 
 @media screen and (max-width: 366px){
-
+    .abosolute-footer .design{
+        font-size: 0.95em;
+    }
 }
