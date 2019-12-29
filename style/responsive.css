@@ -10,17 +10,22 @@
         margin: 0 50px;
         padding-right: 20px;
     }
-    .footer-info{
-        padding: 0;
-    }
     .skill-container{
         margin: 0 50px;
+    }
+    .web-project-info{
+        grid-template-columns: 80%;
+        row-gap: 20px;
     }
 }
 
 @media screen and (max-width: 768px){
     .footer-details{
         display: block;
+        padding-right: 50px;
+    }
+    .footer-info{
+        padding: 0;
     }
     footer{
         display: block;
@@ -37,6 +42,13 @@
     .skill-list p{
         font-size: 0.8em;
     }
+    .web-project-image{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: repeat(4, 300px);
+    }
+    .project-web{
+        grid-template-rows: auto auto;
+    }
 }
 
 @media screen and (max-width: 481px){
@@ -50,7 +62,8 @@
     }
     
     .footer-details{
-        margin: 0 20px;
+        margin: 0 40px;
+        padding: 0;
     }
     .skill-container{
         margin: 0 20px;
@@ -62,6 +75,20 @@
     .skill-list p{
         margin-top: 10px;
     }
+    
+    .web-project-info{
+        display: block;
+    }
+    .web-project-info p{
+        margin: 30px 0;
+    }
+    .project-web{
+        grid-template-rows: auto auto;
+    }
+
+    .interest .fab, .interest .fas{
+        font-size: 2em;
+    }
 }
 
 @media screen and (max-width: 366px){
@@ -69,6 +96,13 @@
         font-size: 0.95em;
     }
     .footer-details{
-        margin: 0 20px;
+        margin: 0 34px;
+        padding: 0;
+    }
+    .web-project-image{
+        grid-template-rows: repeat(4, 180px);
+    }
+    .interest p{
+        font-size: 0.7em;
     }
 }
