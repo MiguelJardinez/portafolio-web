@@ -17,6 +17,10 @@
         grid-template-columns: 80%;
         row-gap: 20px;
     }
+    .ui-info{
+        padding-left: 2em;
+        margin-right: 50px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -48,6 +52,21 @@
     }
     .project-web{
         grid-template-rows: auto auto;
+    }
+    .projectui{
+        grid-template-rows: 270px;
+        grid-template-columns: 100%;
+    }
+    .ui-images{
+        grid-template-columns: repeat(3, 34%);
+        grid-template-rows: repeat(2, 250px);
+        gap: 3px;
+    }
+    .ui-info{
+        grid-row: 1/3;
+        justify-items: center;
+        grid-template-rows: 40px 100px 50px;
+        text-align: center;
     }
 }
 
@@ -89,6 +108,13 @@
     .interest .fab, .interest .fas{
         font-size: 2em;
     }
+    .ui-images{
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: repeat(3, 250px);
+    }
+    .ui-info{
+        grid-template-rows: 40px 120px 50px;
+    }
 }
 
 @media screen and (max-width: 366px){
@@ -104,5 +130,15 @@
     }
     .interest p{
         font-size: 0.7em;
+    }
+    .projectui{
+        grid-template-rows: 380px;
+    }
+
+    .ui-images{
+        grid-template-rows: repeat(3, 20    0px);
+    }
+    .ui-info{
+        grid-template-rows: 40px 210px 50px;
     }
 }
