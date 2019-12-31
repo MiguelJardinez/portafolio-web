@@ -160,7 +160,6 @@
     .nav{
         grid-template-columns: 100%;
         margin: 0 50px;
-        justify-items: end;
     }
     .hamburger{
         display: block;
