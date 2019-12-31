@@ -154,6 +154,21 @@
     .hero-social{
         margin-top: 50px;
     }
+    .menu{
+        display: none;
+    }
+    .nav{
+        grid-template-columns: 100%;
+        margin: 0 50px;
+        justify-items: end;
+    }
+    .hamburger{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 50px;
+    }
 }
 
 @media screen and (max-width: 366px){
@@ -196,5 +211,8 @@
     }
     .arrow{
         bottom: -20%;
+    }
+    .hamburger{
+        margin: 0 20px;
     }
 }
