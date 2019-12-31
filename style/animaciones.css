@@ -47,6 +47,11 @@
     100%{ top: -15px;}
 }
 
+@keyframes proyectos-responsive{
+    0%{ right: 15px;}
+    100%{ right: -15px;}
+}
+
 .motion-images img{
     transition: transform 350ms ease-in-out;
     transition-delay: 500msS;
